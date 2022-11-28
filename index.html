@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Dùng CSS trong HTML</title>
+        <meta charset="utf-8">
+      <link rel="stylesheet" href="main.css">   
+        <!--Internal lấy từ bên trong
+        <style>
+            h1 {
+                color: blueviolet;
+                font-size: 20px;
+            }
+        </style>-->   
+       
+    </head>
+       
+    <body>
+        <style>
+            .box:hover {
+            width: 50%;
+            height: 120px;
+            background: rgb(103, 198, 68);
+        }
+        </style>
+        <div class="box">Hello</div>
+      
+        <div>
+            <h1 style="color:rgb(163, 12, 250);font-size: 30px">Dùng CSS trong HTML</h1>
+            <h1 id="One">Test</h1>
+            <h1 class="Two">Test</h1>
+            <h1 class="Two">Test</h1>
+            <h1 class="Two">Test</h1>
+            <ol>
+                <li style="color:burlywood">Internal</li>
+                <li >External</li>
+                <li >Inline</li>
+            </ol>
+        </div>
+    </body>
+</html>
